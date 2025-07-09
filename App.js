@@ -12,7 +12,7 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
 <NavigationContainer>
-<Stack.Navigator InitialRouteName="Home">
+<Stack.Navigator initialRouteName="Home">
  Component=
 {HomeScreen} Optiions={{title: 'Bem-Vindo!'}}/>
 <Stack.Screen Name="Secondary" Component={Secondary} Optiions= {{title: 'Opcões Deliciosas'}}/>
